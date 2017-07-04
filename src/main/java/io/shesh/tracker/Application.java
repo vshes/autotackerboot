@@ -14,7 +14,6 @@ public class Application {
 
     public static void main(String[] args) {
 
-        System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME,"prod");
         SpringApplication.run(Application.class);
     }
 }
